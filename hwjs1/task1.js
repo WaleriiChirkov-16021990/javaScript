@@ -14,7 +14,7 @@
 */
 function transformValue() {
     const temperatureCelsius = document.querySelector("input[name='temperatureCelsius']").value;
-    const temperatureFahrenheit = (9/5) *temperatureCelsius + 32;
+    const temperatureFahrenheit = Math.round((9 / 5) * temperatureCelsius + 32)* 100 / 100;
     // alert(`${temperatureCelsius} on Celsius = ${temperatureFahrenheit} on Fahrenheit`);
     alert(`Цельсий: ${temperatureCelsius}, Фаренгейт: ${temperatureFahrenheit}`);
 }

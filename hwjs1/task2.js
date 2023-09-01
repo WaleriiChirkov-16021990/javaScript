@@ -16,7 +16,7 @@ function saveName() {
         admin = name;
     } else {
         // default userName
-        admin = 'John Doe'
+        admin = 'John Doe';
     }
     console.log(admin);
 }
